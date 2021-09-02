@@ -4,18 +4,13 @@
   "description": "slides",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "help": "mdx-deck"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "mdx-deck": "^4.1.1"
-  },
-  
-  "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "help": "mdx-deck"
   }
 }
-
